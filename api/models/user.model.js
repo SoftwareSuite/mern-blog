@@ -16,6 +16,10 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true, 
+    },
+    profilePicture: {
+        type: String,
+        default: "https://wallpapers.com/images/featured/cool-profile-pictures-4co57dtwk64fb7lv.jpg",
     }
 },
 {timestamps: true});
