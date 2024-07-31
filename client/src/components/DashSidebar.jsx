@@ -19,7 +19,7 @@ useEffect(() =>{
         <Sidebar.Items>
             <Sidebar.ItemGroup className='flex flex-col gap-1'>
                 <Link to='/dashboard?tab=profile'>
-                <Sidebar.Item active={tab === 'profile'} icon={HiUser} label={'User'} lableColor="dark">
+                <Sidebar.Item active={tab === 'profile'} icon={HiUser} label={'User'} lablecolor="dark" as="div">
                     Profile
                 </Sidebar.Item>
                 </Link>
